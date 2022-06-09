@@ -12,7 +12,7 @@ nav{
         border-radius: 2rem;
         li{
             list-style-type: none;
-            background-color: #6CA9E0;
+            background-color: $titulo;
             border-radius: 0.5rem;
             border: 0.2rem solid black;
             padding: 0.5rem;
@@ -22,7 +22,7 @@ nav{
             }
             a{
                 text-decoration: none;
-                color: white;
+                color: $color-text;
                 &:hover{
                     color: black
                 }

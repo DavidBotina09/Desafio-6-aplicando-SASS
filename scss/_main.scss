@@ -14,8 +14,8 @@ main{
         border-radius: 2rem;
         p{
             padding: 2rem;
-            background-color: red;
-            color: white;
+            background-color: $sections;
+            color: $color-text;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             border-radius: 2rem;
         }
@@ -25,7 +25,7 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: #6373F9;
+        background-color: $titulo;
         border-radius: 2rem;
         padding: 1rem;
         

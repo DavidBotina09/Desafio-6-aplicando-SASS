@@ -6,10 +6,10 @@ header{
     border-radius: 2rem;
     h1{
         font-family: Georgia, 'Times New Roman', Times, serif;
-        background-color: #6CA9E0;
+        background-color: $titulo;
         border-radius: 1rem;
         font-size: 2rem;
-        color: white;
+        color: $color-text;
         text-align: center;
     }
 }
