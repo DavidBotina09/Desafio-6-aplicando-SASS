@@ -1,0 +1,33 @@
+nav{
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    ul{
+        display: flex;
+        flex-direction: row;
+        background-color: #6373F9;
+        justify-content: space-around;
+        padding: 1rem;
+        border-radius: 2rem;
+        li{
+            list-style-type: none;
+            background-color: #6CA9E0;
+            border-radius: 0.5rem;
+            border: 0.2rem solid black;
+            padding: 0.5rem;
+            &:hover{
+                background-color: #435ECF;
+                border-radius: 0.5rem 0rem 0.5rem 0rem;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                &:hover{
+                    color: black
+                }
+            }
+        }
+    }
+
+}

@@ -1,3 +1,81 @@
+header {
+  width: 80%;
+  height: 3rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2rem; }
+  header h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #6CA9E0;
+    border-radius: 1rem;
+    font-size: 2rem;
+    color: white;
+    text-align: center; }
+
+nav {
+  width: 80%;
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%; }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    background-color: #6373F9;
+    justify-content: space-around;
+    padding: 1rem;
+    border-radius: 2rem; }
+    nav ul li {
+      list-style-type: none;
+      background-color: #6CA9E0;
+      border-radius: 0.5rem;
+      border: 0.2rem solid black;
+      padding: 0.5rem; }
+      nav ul li:hover {
+        background-color: #435ECF;
+        border-radius: 0.5rem 0rem 0.5rem 0rem; }
+      nav ul li a {
+        text-decoration: none;
+        color: white; }
+        nav ul li a:hover {
+          color: black; }
+
+main {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: auto;
+  grid-template-areas: "section aside" "section aside" "section aside" "section aside"; }
+  main section {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 2rem; }
+    main section p {
+      padding: 2rem;
+      background-color: red;
+      color: white;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      border-radius: 2rem; }
+  main aside {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #6373F9;
+    border-radius: 2rem;
+    padding: 1rem; }
+    main aside p {
+      color: white; }
+
+footer {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 2rem;
+  background-color: #6CA9E0; }
+  footer p {
+    text-align: center;
+    color: white; }
+
 body {
   background-color: rebeccapurple; }
 
@@ -8,77 +86,3 @@ body {
   padding: 1rem;
   background-color: white;
   border-radius: 2rem; }
-  .container header {
-    width: 80%;
-    height: 3rem;
-    margin-left: 10%;
-    margin-right: 10%;
-    border-radius: 2rem; }
-    .container header h1 {
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      background-color: #6CA9E0;
-      border-radius: 1rem;
-      font-size: 2rem;
-      color: white;
-      text-align: center; }
-  .container nav {
-    width: 80%;
-    height: auto;
-    margin-left: 10%;
-    margin-right: 10%; }
-    .container nav ul {
-      display: flex;
-      flex-direction: row;
-      background-color: #6373F9;
-      justify-content: space-around;
-      padding: 1rem;
-      border-radius: 2rem; }
-      .container nav ul li {
-        list-style-type: none;
-        background-color: #6CA9E0;
-        border-radius: 0.5rem;
-        border: 0.2rem solid black;
-        padding: 0.5rem; }
-        .container nav ul li:hover {
-          background-color: #435ECF;
-          border-radius: 0.5rem 0rem 0.5rem 0rem; }
-        .container nav ul li a {
-          text-decoration: none;
-          color: white; }
-          .container nav ul li a:hover {
-            color: black; }
-  .container main {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: auto;
-    grid-template-areas: "section aside" "section aside" "section aside" "section aside"; }
-    .container main section {
-      width: 80%;
-      margin-left: 10%;
-      margin-right: 10%;
-      border-radius: 2rem; }
-      .container main section p {
-        padding: 2rem;
-        background-color: red;
-        color: white;
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        border-radius: 2rem; }
-    .container main aside {
-      width: 70%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background-color: #6373F9;
-      border-radius: 2rem;
-      padding: 1rem; }
-      .container main aside p {
-        color: white; }
-  .container footer {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    border-radius: 2rem;
-    background-color: #6CA9E0; }
-    .container footer p {
-      text-align: center;
-      color: white; }
