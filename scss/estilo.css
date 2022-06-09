@@ -1,0 +1,60 @@
+body {
+  background-color: rebeccapurple;
+}
+
+.container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background: url(../imagenes/presentacion-2.jpg);
+  background-size: cover;
+  border-radius: 2rem;
+}
+
+.container header {
+  width: 80%;
+  height: 3rem;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2rem;
+}
+
+.container header h1 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.container nav {
+  background-color: red;
+  width: 80%;
+  height: 3rem;
+}
+
+.container section {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 2rem;
+}
+
+.container section p {
+  padding: 2rem;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  opacity: 100%;
+}
+
+.container footer {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 2rem;
+}
+
+.container footer p {
+  text-align: center;
+  color: white;
+}
+/*# sourceMappingURL=estilo.css.map */
